@@ -1,0 +1,24 @@
+{
+  "name": "smart-temple-appium-tests",
+  "version": "1.0.0",
+  "description": "Appium E2E Mobile App Frontend Test Suite & Comprehensive Excel Report",
+  "main": "tests/appium-tests.js",
+  "scripts": {
+    "test": "node tests/appium-tests.js",
+    "generate-report": "python generate_appium_excel.py"
+  },
+  "keywords": [
+    "appium",
+    "mobile-e2e",
+    "android",
+    "ios",
+    "uiautomator2",
+    "xcuitest",
+    "smart-temple"
+  ],
+  "author": "Smart Temple QA Mobile Team",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^8.35.0"
+  }
+}
